@@ -43,5 +43,10 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'letter_opener', :group => :development
+
 gem 'carrierwave'
 gem 'carrierwave-google_drive'
+gem 'haml-rails'
+gem 'devise'
+gem 'cancancan'
